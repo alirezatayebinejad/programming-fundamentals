@@ -110,3 +110,50 @@ int main()
 	return 0;
 }
 */
+/*
+//example 6
+int main()
+{
+
+	int year, birthyear, age;
+	cout << "what year is today?\n";
+	cin >> year;
+	cout << "what is your birthyear?\n";
+	cin >> birthyear;
+
+	age = year - birthyear;
+	cout << "your age is: " << age;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+
+/*
+//example 7
+int main()
+{
+
+	int number, age;
+	float tall;
+	string name;
+
+	cout << "enter your information:\n";
+	cout << "age: ";
+	cin >> age;
+	cout << "name: ";
+	cin >> name;
+	cout << "number: ";
+	cin >> number;
+	cout << "how tall are you?";
+	cin >> tall;
+
+	cout <<" your information:\n" <<"name: "<<name<<endl<< "age: " << age << endl << "number: " << number << endl << "tall: " << tall;
+
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
