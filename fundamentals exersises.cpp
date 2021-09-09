@@ -314,3 +314,52 @@ int main()
 	return 0;
 }
 */
+/*
+//example 15
+int main()
+{
+	int a, b, c;
+	cout << "se adad vared konid:\n";
+	cin >> a >> b >> c;
+
+	int min;
+	min = a;
+
+	if (b < min)
+		min = b;
+	if (c < min)
+		min = c;
+
+	cout << "min: " << min;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 16
+int main()
+{
+	int a, b,temp=0;
+	cout << "do adad vared konid:\n";
+	cin >> a >> b;
+
+
+	if (a < b)
+		cout << a << " " << b;
+	else if (b < a) {
+		temp = a;
+		a = b;
+		b = temp;
+		cout <<a<<" "<<b;
+	}
+		
+
+	
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
