@@ -363,3 +363,89 @@ int main()
 	return 0;
 }
 */
+/*
+//example 17
+int main()
+{
+	int moadel;
+	cout << "moadel ra vared konid:\n";
+	cin >> moadel;
+
+
+	if (moadel < 12)
+		cout << "mashroot shodid";
+	else
+		cout << "mashrot nistid";
+
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 18
+int main()
+{
+	int moadel;
+	cout << "moadel ra vared konid:\n";
+	cin >> moadel;
+
+
+	if (moadel > 17 && moadel <= 20)
+		cout << "A";
+	else if (moadel > 15 && moadel <= 17)
+		cout << "B";
+	else if (moadel > 10 && moadel <= 15)
+		cout << "C";
+	else if (moadel >= 0 && moadel <= 10)
+		cout << "D";
+	else
+		cout << "your number is out of range";
+
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 19
+int main()
+{
+	int pass;
+	cout << "password ravared konid:\n";
+	cin >> pass;
+	cout << "hala ba passwordi ke entekhab kardid vared shavid\n";
+	int passcheck;
+	cin >> passcheck;
+
+	if (passcheck == pass)
+		cout << "welcome";
+	else
+		cout << "incorrect password";
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 20
+int main()
+{
+	int a,b;
+	cout << "do adad do raqami vared konid:\n";
+	cin >> a >> b;
+
+	if (a>=10 && a<=99 && b>=10 && b<=99)
+
+		cout << "true";
+	else
+		cout << "false";
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
