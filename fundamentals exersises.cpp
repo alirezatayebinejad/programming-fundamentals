@@ -157,3 +157,160 @@ int main()
 	return 0;
 }
 */
+/*
+//example 8
+int main()
+{
+	int number;
+	cout << "enter a positive number:\n";
+	cin >> number;
+	if (number < 0) {
+		cout << "your number is not positive;";
+	}
+	else {
+		cout << "correct";
+	}
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 9
+int main()
+{
+	int number;
+	cout << "enter a number:\n";
+	cin >> number;
+	if (number == 0) {
+		cout << "your number is zero";
+	}
+	else if(number<0) {
+		cout << "your number is negetive";
+	}
+	else {
+		cout<< "your number is positive";
+	}
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 10
+int main()
+{
+	int number;
+	cout << "adad do raghami vared konid:\n";
+	cin >> number;
+	if (number <= 99 && number>=10 ) {
+		cout << "true";
+	}
+	else {
+		cout << "adad shoma do raqami nist";
+	}
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 11 if else
+int main()
+{
+	int a,b;
+	char c;
+	cout << "do adad ra vared konid:\n";
+	cin >> a>>b;
+	cout << "enter * or - or + \n";
+	cin >> c;
+	if (c=='*') {
+		cout << a*b;
+	}
+	else if(c=='+') {
+		cout << a+b;
+	}
+	else if (c == '-') {
+		cout << a - b;
+	}
+	else {
+		cout << "incorrect input";
+	}
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 11 switch case
+int main()
+{
+	int a, b;
+	char c;
+	cout << "do adad ra vared konid:\n";
+	cin >> a >> b;
+	cout << "enter * or - or + \n";
+	cin >> c;
+	switch (c) {
+	case '+': cout << a + b; break;
+	case '-': cout << a - b; break;
+	case '*': cout << a * b; break;
+	default: cout << "invalid input";
+	}
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 12
+int main()
+{
+	int a, b;
+	cout << "do adad vared konid:\n";
+	cin >> a >> b;
+	if (a > b)
+		cout << a << " bozorgtar ast ";
+	else if (a < b)
+		cout << b << " bozorgtar ast";
+	else
+		cout << "barabar ast.";
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 13
+int main()
+{
+	int a, b;
+	cout << "do adad vared konid:\n";
+	cin >> a >> b;
+	if (a > b)
+		cout << a << " bozorgtar az " << b << " hast.";
+	else if (a < b)
+		cout << b << " bozorgtar az " << a << " hast.";
+	else
+		cout << a << " ba " << b << " barabar ast.";
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 14
+int main()
+{
+	int a;
+	cout << "yek adad vared konid:\n";
+	cin >> a ;
+	if (a%2==0)
+		cout << a << " zoj ast ";
+	else
+		cout << a << " fard ast ";
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
