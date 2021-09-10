@@ -449,3 +449,77 @@ int main()
 	return 0;
 }
 */
+/*
+//example 21
+int main()
+{
+	int i,sum=0;
+	for(i = 1; i <= 3; i++) {
+		sum = sum+i;
+	}
+	cout << "sum: " << sum;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get(); 
+	return 0;
+}
+*/
+/*
+//example 22
+int main()
+{
+	cout << "enter 5 numbers:\n";
+	int i,a, sum = 0;
+	for (i = 0; i <= 4; i++) {
+		cin >> a;
+		sum = sum + a;
+	}
+	cout << "sum: " << sum;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 23
+int main()
+{
+	cout << "enter 5 numbers:\n";
+	int i, a, sum = 0;
+	for (i = 0; i <= 4; i++) {
+		cin >> a;
+		if (a % 2 == 0)
+	 		cout << "zoj ast";
+		else
+			cout << "fard ast";
+	}
+	cout << "sum: " << sum;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 24
+int main()
+{
+	cout << "enter a number:\n";
+	int i, n ;
+	cin >> n;
+
+	cout << "maqsum alay ha:\n";
+	for (i = n; i >= 1; i--) {
+
+		if (n%i==0) {
+			cout << i << "\n";
+		}
+
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
