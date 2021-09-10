@@ -523,3 +523,103 @@ int main()
 	return 0;
 }
 */
+/*
+//example 25
+int main()
+{	
+	for (int i = 100; i <= 999; i++) {
+
+		if (i%2==0) {
+			cout << i<<"\n";
+		}
+
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 26
+int main()
+{
+	for (int i = 1000; i <= 9999; i++) {
+
+		if (i % 2 == 0) {
+			cout << i << "\n";
+		}
+
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 27
+int main()
+{
+	for (int i = 100; i <= 999; i++) {
+
+		if (i % 5 == 0) {
+			cout << i << "\n";
+		}
+
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 28
+int main()
+{
+	int zarb = 1;
+	for (int i = 1; i <= 5; i++) {
+		zarb = zarb * i;
+	}
+	cout << "zarb 1 ta 5: " << zarb;
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 29
+int main()
+{	
+	int a,zarb=1;
+	for (int i = 1; i <= 5; i++) {
+
+		cin >> a;
+		zarb *= a; //zarb=zarb*a;
+	}
+	cout <<"zarb 5 adad shoma: "<< zarb;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 30
+int main()
+{
+	int n, zarb = 1;
+	cout << "enter a number: ";
+	cin >> n;
+	for (int i = 1; i <= n; i++) {
+		zarb *= i; //zarb=zarb*a;
+	}
+	cout << "zarb 5 adad shoma: " << zarb;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+
