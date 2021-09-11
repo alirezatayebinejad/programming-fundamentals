@@ -695,7 +695,6 @@ int main()
 	return 0;
 }
 */
-
 /*
 //example 35
 int main()
@@ -923,6 +922,189 @@ int main() {
 		zarb = 1;
 	}
 	cout << "1 ta " << n << " be tavan " << n << " = " << sum;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 45
+int main() {
+	int i, a, sum=0;
+
+	cout << "Enter 10 number: \n";
+
+	for (i = 1; i <= 10; i++) {
+		cin >> a;
+		sum = sum + a;
+	}
+	cout << "miangin adad ha= " << sum / 10;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 46
+int main() {
+
+	int i, a, sum=0;
+
+	cout << "Enter 10 number: \n";
+
+	for (i = 1; i <= 10; i++) {
+		cin >> a;
+		if (a % 2 == 0) {
+			sum++;
+		}
+	}
+	cout << "tedade zoj ha" << sum;
+
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 47
+int main() {
+
+	int a, t=0;
+
+	cout << "Enter numbers: \n";
+
+	while (true) {
+		cin >> a;
+		if (a == 0) {
+			break;
+		}
+		t++;
+	}
+	cout << "tedad adad ha be joz 0 = " << t;
+
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 48
+int main() {
+	int a, sum=0, t=0;
+
+	cout << "Enter numbers: \n";
+
+	while (true) {
+		cin >> a;
+		if (a == 0) {
+			break;
+		}
+
+		sum = sum + a;
+		t++;
+	}
+	cout << "miangin adad haye shoma = " << sum / t;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 49
+int main() {
+
+	int a, max;
+
+	cout << "Enter numbers: ";
+	cin >> a;
+
+	max = a;
+
+	while (true) {
+		cin >> a;
+		if (a == 0) {
+			break;
+		}
+		if (max < a) {
+			max = a;
+		}
+	}
+	cout << "Max number = " << max;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 50
+int main() {
+
+	int a, min;
+
+	cout << "Enter numbers: ";
+	cin >> a;
+
+	min = a;
+
+	while (true) {
+		cin >> a;
+		if (a == 0) {
+			break;
+		}
+		if (min > a) {
+			min = a;
+		}
+	}
+	cout << "Max number = " << min;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 51
+int main() {
+
+	int i, j, a, zarb=1;
+
+	for (i = 1; i <= 5; i++) {
+		cout << "\nEnter numbers: ";
+		cin >> a;
+		for (j = 1; j <= a; j++) {
+			zarb = zarb * j;
+		}
+		cout << "faktoriel " << a << " = " << zarb;
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 52
+int main() {
+
+	int i,n, a, sum = 0;
+
+	cout << "tedad adad vorudi: ";
+	cin >> n;
+
+	cout << "Enter numbers: \n";
+
+	for (i = 1;i <= n;i++) {
+	cin >> a;
+	sum+=a;
+	}
+
+	cout << "sum of your numbers = " << sum;
 
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
