@@ -678,3 +678,254 @@ int main()
 	return 0;
 }
 */
+/*
+//example 34
+int main()
+{
+
+	for (int i = 1; i <= 3; i++) {
+		for (int j = 1; j <= i; j++) {
+			cout << "*  ";
+		}
+		cout << "\n";
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+
+/*
+//example 35
+int main()
+{
+
+	int r = 4;
+	for (int i = 1; i <= r; i++) {
+		for (int j = 1; j <= r - i; j++) {
+			cout << " ";
+		}
+		for (int k = 1; k <= i; k++) {
+			cout << k;
+		}
+		cout << "\n";
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 36
+int main()
+{
+
+	int n, sum=0;
+
+	cout << "Enter numbers: \n";
+	cin >> n;
+
+	while (n != 0) {
+
+		sum = sum + n; //sum+=n
+		cin >> n;
+
+	}
+	cout <<"sum: "<< sum;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 37
+int main(){
+int n, sum = 0;
+
+cout << "Enter a number: \n";
+cin >> n;
+
+int i = 1;
+while (i<=n) {
+
+	if (n % i == 0) {
+		cout << i<<" ";
+		sum = sum + i;
+	}
+
+	i++;
+}
+cout << "\nsum: " << sum;
+
+cin.get(); //to prevent from closing the console if needed
+cin.get();
+return 0;
+}
+*/
+/*
+//example 38
+int main() {
+	int n, t = 0;
+
+	cout << "Enter a number: \n";
+	cin >> n;
+
+	int i = 1;
+	while (i <= n) {
+
+		if (n % i == 0) {
+			cout << i << " ";
+			t++;
+		}
+
+		i++;
+	}
+	cout << "\ntedad: " << t;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 39
+int main() {
+	int n, t = 0;
+
+	cout << "Enter a number: \n";
+	cin >> n;
+
+	int i = 1;
+	while (i <= n) {
+
+		if (n % i == 0) {
+			cout << i << " ";
+			t++;
+		}
+		i++;
+	}
+	if (t == 2) {
+		cout << "\nyes";
+	}
+	else {
+		cout << "\nno";
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 40
+int main() {
+	int n, t = 0;
+
+	cout << "Enter a number: \n";
+	cin >> n;
+
+	int i = 1;
+	while (i <= n) {
+
+		if (n % i == 0) {
+			cout << i << " ";
+			t++;
+		}
+		i++;
+	}
+	if (t == 2) {
+		cout << "\n aval hast";
+	}
+	else {
+		cout << "\n aval nist";
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 41
+int main() {
+
+	int n, a = 0, b, j;
+
+	cout << "Enter number: ";
+	cin >> n;
+
+	while (n > 0) {
+		j = n % 10;
+		a = a * 10 + j;
+		n = n / 10;
+	}
+	cout << "majmoo raqam ha= " << a;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 42
+int main() {
+
+
+	int n, sum = 0, m;
+	cout << "Enter a number: ";
+	cin >> n;
+	while (n > 0)
+	{
+		m = n % 10;
+		sum = sum + m;
+		n = n / 10;
+	}
+	cout << "Sum is= " << sum << endl;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 43
+int main() {
+
+
+	int x, n, zarb=1;
+	cin >> x >> n;
+	for (int i = 0; i < n; i++) {
+		zarb = zarb * x;
+	}
+	cout << zarb;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 44
+int main() {
+
+
+	int n, sum = 0, zarb = 1;
+	cout << "Enter number: ";
+	cin >> n;
+	for (int i = 1; i <= n; i++) {
+		for (int j = 1; j <= i; j++) {
+			zarb = zarb * i;
+		}
+		sum = sum + zarb;
+		zarb = 1;
+	}
+	cout << "1 ta " << n << " be tavan " << n << " = " << sum;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
