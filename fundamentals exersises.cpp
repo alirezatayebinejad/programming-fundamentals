@@ -622,4 +622,60 @@ int main()
 	return 0;
 }
 */
+/*
+//example 31
+int main()
+{
+	int a;
 
+	for (int i = 1; i <= 5; i++) {
+		cout << "enter a number: ";
+		cin >> a;
+		cout << "maqsum alay:\n";
+		for (int j = 1; j <= a; j++) {
+			if (a % j == 0)
+				cout << j << "\n";
+		}
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 32
+int main()
+{
+	int a;
+
+	for (int i = 1; i <= 9; i++) {
+		for (int j = 1; j <= 9; j++) {
+			cout << i* j<<"\t";
+		}
+		cout << "\n";
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 33
+int main()
+{
+	int a;
+
+	for (int i = 1; i <= 9; i++) {
+		for (int j = 1; j <= 9; j++) {
+			cout << i * j << "\t";
+		}
+		cout << "\n";
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
