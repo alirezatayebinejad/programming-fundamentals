@@ -546,7 +546,7 @@ int main()
 {
 	for (int i = 1000; i <= 9999; i++) {
 
-		if (i % 2 == 0) {
+		if (i % 2 != 0) {
 			cout << i << "\n";
 		}
 
@@ -615,7 +615,7 @@ int main()
 	for (int i = 1; i <= n; i++) {
 		zarb *= i; //zarb=zarb*a;
 	}
-	cout << "zarb 5 adad shoma: " << zarb;
+	cout << "zarb adad haye shoma: " << zarb;
 
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
@@ -666,9 +666,9 @@ int main()
 int main()
 {
 
-	for (int i = 1; i <= 9; i++) {
-		for (int j = 1; j <= 9; j++) {
-			cout << i * j << "\t";
+	for (int i = 1; i <= 3; i++) {
+		for (int j = 1; j <= i; j++) {
+			cout << "*  ";
 		}
 		cout << "\n";
 	}
@@ -683,9 +683,9 @@ int main()
 int main()
 {
 
-	for (int i = 1; i <= 3; i++) {
-		for (int j = 1; j <= i; j++) {
-			cout << "*  ";
+	for (int i = 1; i <= 9; i++) {
+		for (int j = 1; j <= 9; j++) {
+			cout << i * j << "\t";
 		}
 		cout << "\n";
 	}
