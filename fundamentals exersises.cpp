@@ -1329,8 +1329,7 @@ int main() {
 */
 /*
 //example 62
-
-	int main() {
+int main() {
 	int i, a[10], b[10], c[10];
 
 	cout << "Enter numbers of first array  : \n";
@@ -1347,4 +1346,223 @@ int main() {
 
 	for (i = 0;i <= 9;i++)
 		cout << c[i]<<endl;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 63
+int main() {
+
+	int i, j, a[3][2], sum = 0;
+
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 2; j++)
+		{
+			cout << "enter a[" << i << "]" << "[" << j << "]= ";
+			cin >> a[i][j];
+		}
+	}
+	cout << "\nyour array is :\n";
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 2; j++)
+		{
+			cout << a[i][j] << '\t';
+		}
+
+		cout << '\n';
+	}
+
+		cin.get(); //to prevent from closing the console if needed
+		cin.get();
+		return 0;
+}
+*/
+/*
+//example 64
+int main() {
+	int i, j, a[3][2],sum=0;
+
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j < 2;j++)
+		{
+			cout << "enter a[" << i << "]" << "[" << j << "]= ";
+			cin >> a[i][j];
+		}
+	}
+
+	cout << "\nyour array is :\n";
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j < 2;j++)
+		{
+			cout<<a[i][j]<<'\t';
+		}
+		cout << '\n';
+	}
+
+	cout << "\nsatr\t" << "sum\n";
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j < 2;j++)
+		{
+			sum += a[i][j];
+
+		}
+		cout << i << '\t' << sum;
+		sum = 0;
+		cout << '\n';
+	}
+
+		cin.get(); //to prevent from closing the console if needed
+		cin.get();
+		return 0;
+}
+*/
+/*
+//example 65
+int main() {
+
+	int i, j, a[3][2], sum = 0;
+
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 2; j++)
+		{
+			cout << "enter a[" << i << "]" << "[" << j << "]= ";
+			cin >> a[i][j];
+		}
+	}
+
+	cout << "\nyour array is :\n";
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 2; j++)
+		{
+			cout << a[i][j] << '\t';
+		}
+		cout << '\n';
+	}
+
+	cout << "\nsatr\t" << "sum\n";
+	for (i = 0; i < 3; i++)
+	{
+		for (j = 0; j < 2; j++)
+		{
+			sum += a[i][j];
+
+		}
+		cout << i + 1 << '\t' << sum;
+		sum = 0;
+		cout << '\n';
+	}
+
+	cout << "\nsotun\t" << "sum\n";
+	for (j = 0; j < 2; j++)
+	{
+		for (i = 0; i < 3; i++)
+		{
+			sum += a[i][j];
+		}
+		cout << j  << '\t' << sum;
+		sum = 0;
+		cout << '\n';
+	}
+
+		cin.get(); //to prevent from closing the console if needed
+		cin.get();
+		return 0;
+}
+*/
+/*
+//example 66	
+int main() {
+
+	int i, j, a[3][3];
+
+	cout << "enter your array numbers:" << endl;
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j <3 ;j++)
+		{
+			cout << "enter a[" << i << "]" << "[" << j << "]= ";
+			cin >> a[i][j];
+		}
+	}
+
+	cout << "your matrix is: " << endl;
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j <3;j++)
+		{
+			cout  << a[i][j]<<"  ";
+		}
+		cout << endl;
+	}
+
+	cout << "anasor qotr asli :" << endl;
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j <3;j++)
+		{
+			if (i == j) {
+				cout << a[i][j] << "  ";
+		}
+			
+		}cout << endl;
+	}
+
+		cin.get(); //to prevent from closing the console if needed
+		cin.get();
+		return 0;
+}
+*/
+/*
+//example 67
+int main() {
+
+	int i, j, a[3][3];
+
+	cout << "enter your array numbers:" << endl;
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j <3 ;j++)
+		{
+			cout << "enter a[" << i << "]" << "[" << j << "]= ";
+			cin >> a[i][j];
+		}
+	}
+
+	cout << "your matrix is: " << endl;
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j <3;j++)
+		{
+			cout  << a[i][j]<<"  ";
+		}cout << endl;
+	}
+
+	cout << "anasor zire qotr asli :" << endl;
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j <3;j++)
+		{
+			if (i>j) {
+				cout << a[i][j] << "  ";
+			}
+
+		}
+		cout << endl;
+	}
+
+
+		cin.get(); //to prevent from closing the console if needed
+		cin.get();
+		return 0;
+}
 */
