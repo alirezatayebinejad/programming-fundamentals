@@ -1874,3 +1874,135 @@ int main()
 	return 0;
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+//example 77
+
+
+
+
+
+void khandan(int a[], int n) {
+	int i, b;
+	for (i = 0; i < n; i++)
+	{
+		cout << "enter[" << i << "]= ";
+		cin >> a[i];
+	}
+}
+
+
+void chap(int a[], int n) {
+	int i, b;
+	cout << "your array is=" << endl;
+	for (i = 0; i < n; i++)
+	{
+		cout << a[i] << endl;
+
+	}
+}
+
+
+int findmax(int a[], int n) {
+	int i, max;
+	max = a[0];
+	for (i = 1; i < n; i++)
+		if (a[i] > max)
+			max = a[i];
+	return max;
+}
+
+
+int findmin(int a[], int n) {
+	int i, min;
+	min = a[0];
+	for (i = 1; i < n; i++)
+		if (a[i] < min)
+			min = a[i];
+	return min;
+}
+
+
+bool search(int a[], int n, int x) {
+	int i;
+	bool f = false;
+	for (i = 0; i < n; i++)
+		if (x == a[i])
+		{
+			f = true;
+			break;
+		}
+	return f;
+}
+
+
+int tekrar(int a[], int n, int x) {
+	int i, t = 0;
+	for (i = 0; i < n; i++)
+		if (x == a[i])
+			t++;
+	return t;
+}
+
+
+
+
+
+void main() {
+	int a[3], t = 3, b, c;
+
+	while (true) {
+		cout << "\nenter 1 to 7 (1.khandan array 2.chap array 3.findmax 4.findmin 5.search in array 6.tedad tekrar 7.Exit)" << endl;
+		cin >> c;
+
+		if (c == 1)
+			khandan(a, t);
+		else if (c == 2)
+			chap(a, t);
+		else if (c == 3)
+			cout << "the max in array = " << findmax(a, t) << endl;
+		else if (c == 4)
+			cout << "the min in array = " << findmin(a, t) << endl;
+		else if (c == 5) {
+			cout << "what number to search in array? ";
+			cin >> b;
+			if (search(a, t, b))
+				cout << "it is existed in array" << endl;
+			else
+				cout << "it is not existed in array" << endl;
+
+		}
+		else if (c == 6)
+		{
+			cout << "tekrar adade : ";
+			cin >> b;
+
+			cout << tekrar(a, t, b) << endl;
+		}
+		else if (c == 7)
+			break;
+	}
+}
+
+*/
+
+
+
+
+
+
+
