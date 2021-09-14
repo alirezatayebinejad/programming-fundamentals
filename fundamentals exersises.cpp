@@ -1842,3 +1842,35 @@ int main()
 	return 0;
 }
 */
+/*
+//example 76
+
+int maqsum(int a)
+{
+	int i, t = 0;
+	for (i = 1;i <= a;i++)
+		if (a%i == 0)
+			t++;
+	return t;
+}
+
+
+int main()
+{
+	int i, f;
+
+	cout << "adad\ttedad maqsum alay ha\n_______________________________\n\n";
+
+	for (i = 1;i <= 100;i++) {
+
+		f = maqsum(i);
+
+		cout << i << "\t" << f << "\n";
+
+}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
