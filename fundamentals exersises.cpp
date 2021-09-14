@@ -1133,14 +1133,14 @@ int main() {
 /*
 //example 54
 int main() {
-	int i, a[7];
+	int i, a[5];
 
-	for (i = 0;i <= 6;i++)
+	for (i = 0;i <= 4;i++)
 	{
 		cout << "Enter number : ";
 		cin >> a[i];
 	}
-	for (i = 6;i >= 0;i--)
+	for (i = 4;i >= 0;i--)
 		cout << a[i]<<endl;
 
 	cin.get(); //to prevent from closing the console if needed
@@ -1291,7 +1291,7 @@ int main() {
 		if (a[i] == 4)
 			t++;
 	}
-	cout <<"tedad adad 4= "<< sum;
+	cout <<"tedad adad 4= "<< t;
 
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
@@ -1302,7 +1302,7 @@ int main() {
 //example 61
 int main() {
 
-	int i, a[10], sum = 0, b;
+	int i, a[10], b;
 	bool t = false;
 
 	for (i = 0;i <= 9;i++)
@@ -1769,9 +1769,10 @@ int main()
 	{
 		cin >> n;
 		f = maqsum(n);
-		if (f == n)
+		if (f == n){
 			cout << "adad kamel ast\n";
 			t++;
+			}
 		else
 			cout << "adad kamel nist\n";
 	}
@@ -1798,8 +1799,8 @@ int jam_maqsum(int a)
 int main()
 {
 	int i, n, f;
-	cout << "adad haye kamel beyn 1 ta 10000 :\n";
-	for (i = 1;i <= 10000;i++)
+	cout << "adad haye kamel beyn 1 ta 1000 :\n";
+	for (i = 1;i <= 1000;i++)
 	{
 		f = jam_maqsum(i);
 		if (f == i)
@@ -1845,7 +1846,7 @@ int main()
 /*
 //example 76
 
-int maqsum(int a)
+int tedad_maqsum(int a)
 {
 	int i, t = 0;
 	for (i = 1;i <= a;i++)
@@ -1857,22 +1858,17 @@ int maqsum(int a)
 
 int main()
 {
-	int i, f;
-
-	cout << "adad\ttedad maqsum alay ha\n_______________________________\n\n";
-
-	for (i = 1;i <= 100;i++) {
-
-		f = maqsum(i);
-
-		cout << i << "\t" << f << "\n";
-
-}
+	for (int i = 1; i <= 100; i++) {
+		if (tedad_maqsum(i) == 2) {
+			cout << i<<endl;
+		}
+	}
 
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
 	return 0;
 }
+
 */
 
 
