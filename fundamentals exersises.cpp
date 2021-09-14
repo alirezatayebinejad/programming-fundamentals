@@ -1111,3 +1111,113 @@ int main() {
 	return 0;
 }
 */
+/*
+//example 53
+int main() {
+
+	int i, a[7];
+
+	for (i = 0;i <= 6;i++) 
+	{
+		cout << "Enter number : ";
+		cin >> a[i];
+	}
+	for (i = 0;i <= 6;i++)
+		cout << a[i]<<endl;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 54
+int main() {
+	int i, a[7];
+
+	for (i = 0;i <= 6;i++)
+	{
+		cout << "Enter number : ";
+		cin >> a[i];
+	}
+	for (i = 6;i >= 0;i--)
+		cout << a[i]<<endl;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 55
+int main() {
+	int i, a[7];
+
+	for (i = 0;i <= 6;i++)
+	{
+		cout << "Enter numbers : ";
+		cin >> a[i];
+	}
+	for (i = 0;i <= 6;i++)
+	{
+		if(a[i]>0)
+		cout << a[i]<<endl;
+	}
+	for (i = 0;i <= 6;i++)
+	{
+		if (a[i]<0)
+			cout << a[i] << endl;
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 56
+int main() {
+
+	int i, a[10], sum=0;
+
+	for (i = 0;i <= 9;i++)
+	{
+		cout << "Enter number : ";
+		cin >> a[i];
+		sum += a[i];
+	}
+	cout << "sum is: "<<sum<<"\n";
+	cout << "Average is: " << sum/10 << "\n";
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 57
+int main() {
+
+	int i, a[10], max, min;
+
+	cout << "Enter number : ";
+	cin >> a[0];
+	max = a[0];
+	min = a[0];
+
+	for (i = 1;i <= 9;i++)
+	{
+		cout << "Enter number : ";
+		cin >> a[i];
+		if (a[i] > max)
+			max=a[i];
+		if (a[i] < min)
+			min=a[i];
+	}
+	cout << "min= " << min<<'\n'<<"max= "<<max;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/

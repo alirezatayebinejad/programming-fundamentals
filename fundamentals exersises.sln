@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fundamentals exersises", "fundamentals exersises.vcxproj", "{553A43AC-860A-44D3-93C7-47ED0193D02C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "all of the class practices", "M:\learning\coding\C++\tamrin daneshgah\all of the class practices\all of the class practices\all of the class practices.vcxproj", "{FAB10033-F0F1-42A5-B8ED-C01A348C6773}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{553A43AC-860A-44D3-93C7-47ED0193D02C}.Release|x64.Build.0 = Release|x64
 		{553A43AC-860A-44D3-93C7-47ED0193D02C}.Release|x86.ActiveCfg = Release|Win32
 		{553A43AC-860A-44D3-93C7-47ED0193D02C}.Release|x86.Build.0 = Release|Win32
+		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Debug|x64.ActiveCfg = Debug|x64
+		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Debug|x64.Build.0 = Debug|x64
+		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Debug|x86.ActiveCfg = Debug|Win32
+		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Debug|x86.Build.0 = Debug|Win32
+		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Release|x64.ActiveCfg = Release|x64
+		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Release|x64.Build.0 = Release|x64
+		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Release|x86.ActiveCfg = Release|Win32
+		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
