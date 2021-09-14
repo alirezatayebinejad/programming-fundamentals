@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fundamentals exersises", "f
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "all of the class practices", "M:\learning\coding\C++\tamrin daneshgah\all of the class practices\all of the class practices\all of the class practices.vcxproj", "{FAB10033-F0F1-42A5-B8ED-C01A348C6773}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "all of the class practices part 2", "M:\learning\coding\C++\tamrin daneshgah\all of the class practices part 2\all of the class practices part 2\all of the class practices part 2.vcxproj", "{1EB329CC-ED87-4570-85D8-F8CF656BFCA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Release|x64.Build.0 = Release|x64
 		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Release|x86.ActiveCfg = Release|Win32
 		{FAB10033-F0F1-42A5-B8ED-C01A348C6773}.Release|x86.Build.0 = Release|Win32
+		{1EB329CC-ED87-4570-85D8-F8CF656BFCA3}.Debug|x64.ActiveCfg = Debug|x64
+		{1EB329CC-ED87-4570-85D8-F8CF656BFCA3}.Debug|x64.Build.0 = Debug|x64
+		{1EB329CC-ED87-4570-85D8-F8CF656BFCA3}.Debug|x86.ActiveCfg = Debug|Win32
+		{1EB329CC-ED87-4570-85D8-F8CF656BFCA3}.Debug|x86.Build.0 = Debug|Win32
+		{1EB329CC-ED87-4570-85D8-F8CF656BFCA3}.Release|x64.ActiveCfg = Release|x64
+		{1EB329CC-ED87-4570-85D8-F8CF656BFCA3}.Release|x64.Build.0 = Release|x64
+		{1EB329CC-ED87-4570-85D8-F8CF656BFCA3}.Release|x86.ActiveCfg = Release|Win32
+		{1EB329CC-ED87-4570-85D8-F8CF656BFCA3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

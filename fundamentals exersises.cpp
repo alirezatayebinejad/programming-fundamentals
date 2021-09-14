@@ -1660,3 +1660,185 @@ int main() {
 	return 0;
 }
 */
+/*
+//example 70
+
+int fact(int a)
+{
+	int i,s=1;
+	for (i = 1;i <= a;i++)
+		s *= i;
+
+	return s;
+}
+
+int main()
+{
+	int a,s=0,i;
+	for (i = 1;i <= 10;i++)
+	{
+		cout << "your number: ";
+		cin >> a;
+		s = s + fact(a);
+	}
+	cout << "sum of your numbers facts: " << s;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 71
+
+int tavan(int a)
+{
+	int j, t=1;
+	for (j = 1;j <= a;j++)
+		t *= a;
+
+	return t;
+}
+
+int main()
+{
+	int i, n, sum = 0,t;
+	cin >> n;               
+	for (i = 1;i <= n;i++)  
+	{
+		t = tavan(i);       
+		sum += t;           
+	}
+	cout << sum;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 72
+
+bool aval(int a)
+{
+	int i, s = 0, t;
+	for (i = 1; i <= a; i++)
+		if (a % i == 0)
+			s++;
+	if (s == 2)
+		t = 1;
+	else {
+		t = 0;
+	}
+	return t;
+}
+
+int main()
+{
+	int  a;
+
+		cin >> a;
+		if (aval(a))
+			cout << "aval ast\n";
+		else {
+			cout << "aval nist\n";
+		}
+	
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 73
+
+int maqsum(int a)
+{
+	int i, s = 0;
+	for (i = 1;i < a;i++)
+		if (a%i == 0)
+			s += i;
+	return s;
+}
+
+int main()
+{
+	int i, n,f,t=0;
+	for (i = 1;i <= 10;i++)
+	{
+		cin >> n;
+		f = maqsum(n);
+		if (f == n)
+			cout << "adad kamel ast\n";
+			t++;
+		else
+			cout << "adad kamel nist\n";
+	}
+	cout<<"tedad adad haye kamel shoma= \n"<<t;
+
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 74
+
+int jam_maqsum(int a)
+{
+	int i, s = 0;
+	for (i = 1;i < a;i++)
+		if (a%i == 0)
+			s += i;
+	return s;
+}
+
+int main()
+{
+	int i, n, f;
+	cout << "adad haye kamel beyn 1 ta 10000 :\n";
+	for (i = 1;i <= 10000;i++)
+	{
+		f = jam_maqsum(i);
+		if (f == i)
+			cout << i<<endl;
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 75
+
+int tedad_maqsum(int a)
+{
+	int i, t = 0;
+	for (i = 1;i <= a;i++)
+		if (a%i == 0)
+			t++;
+	return t;
+}
+
+int main()
+{
+	int i, f;
+
+	cout << "adad\ttedad maqsum alay ha\n_______________________________\n\n";
+
+	for (i = 1;i <= 100;i++) {
+
+		f = tedad_maqsum(i);
+
+		cout << i << "\t" << f << "\n";
+
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
