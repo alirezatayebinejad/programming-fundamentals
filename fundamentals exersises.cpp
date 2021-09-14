@@ -1566,3 +1566,97 @@ int main() {
 		return 0;
 }
 */
+/*
+//example 68
+int main() {
+
+	int i, j, a[3][3],sum=0;
+
+	cout << "enter your array numbers:" << endl;
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j <3 ;j++)
+		{
+			cout << "enter a[" << i << "]" << "[" << j << "]= ";
+			cin >> a[i][j];
+		}
+	}
+
+	cout << "your matrix is: " << endl;
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j <3;j++)
+		{
+			cout  << a[i][j]<<"  ";
+		}
+		cout << endl;
+	}
+
+	cout << "jam anasor qotr asli :" << endl;
+	for (i = 0;i < 3;i++)
+	{
+		for (j = 0;j <3;j++)
+		{
+			if (i == j) {
+				sum += a[i][j];
+			}
+
+		}
+	}
+	cout << sum;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 69
+int main() {
+
+	int i, j, a[2][3],max;
+
+	cout << "enter your array numbers:" << endl;
+
+	for (i = 0;i < 2;i++)
+	{
+		for (j = 0;j <3 ;j++)
+		{
+			cout << "enter a[" << i << "]" << "[" << j << "]= ";
+			cin >> a[i][j];
+		}
+	}
+
+	cout << "your matrix is: " << endl;
+
+	for (i = 0;i < 2;i++)
+	{
+		for (j = 0;j <3;j++)
+		{
+			cout  << a[i][j]<<"  ";
+		}cout << endl;
+	}
+
+	cout << "max har satr :" << endl;
+
+	for (i = 0;i < 2;i++)
+	{
+		max = a[i][0];
+		for (j = 0;j <3;j++)
+		{
+
+			if (a[i][j]>max) {
+				max = a[i][j];
+
+			}
+
+		}
+		cout << max ;
+		cout << endl;
+	}
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
