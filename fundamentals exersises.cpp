@@ -1221,3 +1221,130 @@ int main() {
 	return 0;
 }
 */
+/*
+//example 58
+int main() {
+
+	int i, a[10], max, b;
+
+	cout << "Enter number : ";
+	cin >> a[0];
+	max = a[0];
+	b=0;
+
+	for (i = 1;i <= 9;i++)
+	{
+		cout << "Enter number : ";
+		cin >> a[i];
+
+		if (a[i] > max){
+			max = a[i];
+			b = i;
+	}
+	}
+	cout << "andise max= " <<b ;
+
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 59
+int main() {
+
+	int i, a[10], min, b;
+
+	cout << "Enter number : ";
+	cin >> a[0];
+	min = a[0];
+	b = 0;
+
+	for (i = 1; i <= 9; i++)
+	{
+		cout << "Enter number : ";
+		cin >> a[i];
+
+		if (a[i] < min) {
+			min = a[i];
+			b = i;
+		}
+	}
+	cout << "andise min= " << b;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 60
+int main() {
+
+	int i, a[10], t=0;
+
+	for (i = 0;i <= 9;i++)
+	{
+		cout << "Enter number : ";
+		cin >> a[i];
+		if (a[i] == 4)
+			t++;
+	}
+	cout <<"tedad adad 4= "<< sum;
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 61
+int main() {
+
+	int i, a[10], sum = 0, b;
+	bool t = false;
+
+	for (i = 0;i <= 9;i++)
+	{
+		cout << "Enter number : ";
+		cin >> a[i];
+	}
+	cout<<"what number? ";
+	cin >> b;
+	for (i = 0; i <= 9; i++) {
+		if (a[i] == b){
+			cout << "yes";
+			t=true;
+			break;
+		}
+	}
+	if (t == false)
+		cout << "no";
+
+	cin.get(); //to prevent from closing the console if needed
+	cin.get();
+	return 0;
+}
+*/
+/*
+//example 62
+
+	int main() {
+	int i, a[10], b[10], c[10];
+
+	cout << "Enter numbers of first array  : \n";
+	for (i = 0;i <= 9;i++)
+		cin >> a[i];
+
+	cout << "Enter numbers of first array  : \n";
+	for (i = 0;i <= 9;i++)
+		cin >> b[i];
+
+	cout << "Sum of two array  : \n";
+	for (i = 0;i <= 9;i++)
+		c[i] = a[i] + b[i];
+
+	for (i = 0;i <= 9;i++)
+		cout << c[i]<<endl;
+*/
