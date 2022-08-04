@@ -27,12 +27,12 @@ int main()
 // example 2
 int main()
 {
-	int a,mohit,masahat;
+	int a,perimeter,area;
 	cin >> a;
-	mohit = a * 4;
-	masahat = a * a;
-	cout << "masahat: " << masahat << endl;
-	cout << "mohit: " << mohit << endl;
+	perimeter = a * 4;
+	area = a * a;
+	cout << "area: " << area << endl;
+	cout << "perimeter: " << perimeter << endl;
 	
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
@@ -44,15 +44,15 @@ int main()
 //example 3
 int main()
 {
-	int arz,tool, mohit, masahat;
-	cout << "arz ra vared kon:\n";
-	cin >> arz;
-	cout << "tool ra vared kon:\n";
-	cin >> tool;
-	mohit = (arz + tool) * 2;
-	masahat = arz * tool;
-	cout << "masahat: " << masahat << endl;
-	cout << "mohit: " << mohit << endl;
+	int width,length, perimeter, area;
+	cout << "Enter width:\n";
+	cin >> width;
+	cout << "Ente length:\n";
+	cin >> length;
+	perimeter = (width + length) * 2;
+	area = width * length;
+	cout << "area: " << area << endl;
+	cout << "perimeter: " << perimeter << endl;
 
 
 	cin.get(); //to prevent from closing the console if needed
@@ -64,15 +64,15 @@ int main()
 //example 4
 int main()
 {
-	float shoa, mohit, masahat;
+	float radius, perimeter, area;
 
-	cout << "shoa dayere ra vared kon:\n";
-	cin >> shoa;
+	cout << "Enter radius of circle:\n";
+	cin >> radius;
 
-	mohit = 2*3.14*shoa; // 3.14 adad pi hast
-	masahat = 3.14*shoa*shoa;
-	cout << "masahat: " << masahat << endl;
-	cout << "mohit: " << mohit << endl;
+	perimeter = 2*3.14*radius; // 3.14 adad pi hast
+	area = 3.14*radius*radius;
+	cout << "area: " << area << endl;
+	cout << "perimeter: " << perimeter << endl;
 
 
 	cin.get(); //to prevent from closing the console if needed
@@ -84,27 +84,27 @@ int main()
 //example 5
 int main()
 {
-	float zfizik, nfizik, zriazi, nriazi, zamar, namar;
-	cout << "nomre va zarib riazi fizik va amar ra vared konid: \n";
+	float zfizik, nfizik, zmath, nmath, zscience, nscience;
+	cout << "score and coefficient math fizik va science: \n";
 
-	cout << "fizik\n" << "zarib:";
+	cout << "fizik\n" << "coefficient:";
 	cin >> zfizik;
-	cout << "nomre:";
+	cout << "score:";
 	cin >> nfizik;
 
-	cout << "riazi\n" << "zarib:";
-	cin >> zriazi;
-	cout << "nomre:";
-	cin >> nriazi;
+	cout << "math\n" << "coefficient:";
+	cin >> zmath;
+	cout << "score:";
+	cin >> nmath;
 
-	cout << "amar\n" << "zarib:";
-	cin >> zamar;
-	cout << "nomre:";
-	cin >> namar;
+	cout << "science\n" << "coefficient:";
+	cin >> zscience;
+	cout << "score:";
+	cin >> nscience;
 
-	float moadel = ((zfizik * nfizik) + (zriazi * nriazi) + (zamar * namar)) / (zfizik + zriazi + zamar);
+	float moadel = ((zfizik * nfizik) + (zmath * nmath) + (zscience * nscience)) / (zfizik + zmath + zscience);
 
-	cout << "moadel shoma: "<< moadel;
+	cout << "total grade: "<< moadel;
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
 	return 0;
@@ -201,13 +201,13 @@ int main()
 int main()
 {
 	int number;
-	cout << "adad do raghami vared konid:\n";
+	cout << "Enter two digits number:\n";
 	cin >> number;
 	if (number <= 99 && number>=10 ) {
 		cout << "true";
 	}
 	else {
-		cout << "adad shoma do raqami nist";
+		cout << "its not two digit";
 	}
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
@@ -220,15 +220,15 @@ int main()
 {
 	int a,b;
 	char c;
-	cout << "do adad ra vared konid:\n";
+	cout << "enter two numbers:\n";
 	cin >> a>>b;
 	cout << "enter * or - or + \n";
 	cin >> c;
 	if (c=='*') {
-		cout << a*b;
+		cout << a * b;
 	}
 	else if(c=='+') {
-		cout << a+b;
+		cout << a + b;
 	}
 	else if (c == '-') {
 		cout << a - b;
@@ -247,9 +247,9 @@ int main()
 {
 	int a, b;
 	char c;
-	cout << "do adad ra vared konid:\n";
+	cout << "Enter two numbers:\n";
 	cin >> a >> b;
-	cout << "enter * or - or + \n";
+	cout << "Enter * or - or + \n";
 	cin >> c;
 	switch (c) {
 	case '+': cout << a + b; break;
@@ -257,24 +257,25 @@ int main()
 	case '*': cout << a * b; break;
 	default: cout << "invalid input";
 	}
+	
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
 	return 0;
-}
+} 
 */
 /*
 //example 12
 int main()
 {
 	int a, b;
-	cout << "do adad vared konid:\n";
+	cout << "enter two numbers:\n";
 	cin >> a >> b;
 	if (a > b)
-		cout << a << " bozorgtar ast ";
+		cout << a << " isBigger ";
 	else if (a < b)
-		cout << b << " bozorgtar ast";
+		cout << b << " isBigger";
 	else
-		cout << "barabar ast.";
+		cout << "is equal.";
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
 	return 0;
@@ -285,14 +286,14 @@ int main()
 int main()
 {
 	int a, b;
-	cout << "do adad vared konid:\n";
+	cout << "enter two numbers:\n";
 	cin >> a >> b;
 	if (a > b)
-		cout << a << " bozorgtar az " << b << " hast.";
+		cout << a << " isBigger than " << b;
 	else if (a < b)
-		cout << b << " bozorgtar az " << a << " hast.";
+		cout << b << " isBigger than " << a;
 	else
-		cout << a << " ba " << b << " barabar ast.";
+		cout << a << " with " << b << " is equal.";
 	cin.get(); //to prevent from closing the console if needed
 	cin.get();
 	return 0;
@@ -303,7 +304,7 @@ int main()
 int main()
 {
 	int a;
-	cout << "yek adad vared konid:\n";
+	cout << "enter one number:\n";
 	cin >> a ;
 	if (a%2==0)
 		cout << a << " zoj ast ";
@@ -319,7 +320,7 @@ int main()
 int main()
 {
 	int a, b, c;
-	cout << "se adad vared konid:\n";
+	cout << "enter three numbers:\n";
 	cin >> a >> b >> c;
 
 	int min;
