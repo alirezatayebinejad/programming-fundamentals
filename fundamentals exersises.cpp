@@ -11,10 +11,10 @@ int main()
 	cin >> a;
 	cin >> b;
 
-	cout <<"jam: " << a + b << '\n';
-	cout <<"zarb: " << a * b << '\n';
-	cout <<"taqsim: " << a / b << '\n';
-	cout <<"menha: " << a - b << '\n';
+	cout <<"sum: " << a + b << '\n';
+	cout <<"multi: " << a * b << '\n';
+	cout <<"devide: " << a / b << '\n';
+	cout <<"minus: " << a - b << '\n';
 
 	
 	cin.get(); //to prevent from closing the console if needed
